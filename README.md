@@ -1,2 +1,4 @@
 # react-ts-sample
-A sample React + Typescript sample application.
+A sample application.
+
+Tech Stack : React + Typescript.
