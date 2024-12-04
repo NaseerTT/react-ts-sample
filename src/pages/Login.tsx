@@ -9,11 +9,16 @@ function Login() {
   const navigate = useNavigate();
 
   const handleLogin = () => {
-
     navigate("/home")
     setEmail('');
     setPassword('');
   };
+
+  const handleSignup = () => {
+    navigate("/signup")
+    setEmail('');
+    setPassword('');
+  }
 
   return (
     <div className="login-container">
@@ -49,6 +54,10 @@ function Login() {
 
           <div className="button-container">
             <button onClick={handleLogin} className="login-button">Log In</button>
+          </div>
+          <hr></hr>
+          <div className="button-container">
+            <button onClick={handleSignup} className="login-button">Sign Up</button>
           </div>
         </form>
       </div>
