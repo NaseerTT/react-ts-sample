@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+nav {
+  height: 5vh;
+  background-color: #68A4A5;
+  text-align: center;
+  padding: 0.5rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 80%;
+  max-width: 1200px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999;
+  border-radius: 40px;
+  margin-top: 10px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  list-style-type: none;
+  padding: 0 1rem;
+}
+
+nav ul li {
+  padding-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}

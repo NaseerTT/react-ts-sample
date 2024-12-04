@@ -1,4 +1,7 @@
 import { Outlet, Link } from "react-router-dom";
+import '../App.css'
+import { Avatar, Icon } from "@mui/material";
+import ColorLensIcon from '@mui/icons-material/ColorLens';
 
 const Layout = () => {
   return (
@@ -6,16 +9,10 @@ const Layout = () => {
       <nav>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <ColorLensIcon ></ColorLensIcon>
           </li>
           <li>
-            <Link to="/login">Login</Link>
-          </li>
-          <li>
-            <Link to="/signup">Sign Up</Link>
-          </li>
-          <li>
-            <Link to="/forgotpassword">Forgot Password</Link>
+            <Link to="/login">Sample Application</Link>
           </li>
         </ul>
       </nav>
