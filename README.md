@@ -3,4 +3,5 @@ A sample application.
 
 Tech Stack : React + Typescript.
 
-![image](https://github.com/user-attachments/assets/09831a54-599b-4a60-9794-56969201e989)
+![image](https://github.com/user-attachments/assets/3ba480ca-6f40-426c-b73e-45fcef7674eb)
+
